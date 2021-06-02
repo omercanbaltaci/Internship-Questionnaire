@@ -30,7 +30,7 @@ public class App {
         // Starting from the bottom and going upward, if a number is not a prime number,
         // then the maximum of its adjacent numbers will be added onto it. Then the top of
         // the pyramid will contain the result. This way, a path doesn't have to be drawn
-        // everytime we have to compare 2 nonprime equal numbers by going downward.
+        // everytime we have to compare 2 nonprime equal numbers while going downward.
         for (int i = row - 1; i >= 0; i--) {
             for (int j = 0; j < col - 1; j++) {
                 if (isPrime(arr[i][j]))
