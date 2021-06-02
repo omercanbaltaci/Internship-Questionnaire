@@ -1,11 +1,11 @@
 # Questionnaire
 
 Rules;
-  - You will start from the top and move downwards to an adjacent number as in below.
+  - You will start from the top and move downwards to an adjacent number.
   - You are only allowed to walk downwards and diagonally.
   - You can only walk over NONPRIME NUMBERS.
   - You have to reach at the end of the pyramid as much as possible.
-  - You have to treat your input as pyramid.
+  - You have to treat your input as <ins>pyramid.</ins>
 
 What is the maximum sum of below input?
 
